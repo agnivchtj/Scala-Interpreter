@@ -51,7 +51,7 @@ object Parser {
         println(branches)
         println(getLast(branches))
         */
-        //if (branches == Nil) throw new Interp_Basic.Func_Subst.PException("Empty branches")
+        //if (branches == Nil) throw new Interp_Basic.Func_Subst.Mutation.PException("Empty branches")
         if (checkBranches(branches) == false) CondExt(
           branches.map(i => i match {
             case SList(List(cond, exp)) => (parse(cond), parse(exp))
@@ -234,7 +234,7 @@ object Interp {
       case IsNilC(e) => {
         interp(e) match {
           case NilV() => BoolV(true)
-          //case NumV(num) => throw new Interp_Basic.Func_Subst.IException("Invalid input")
+          //case NumV(num) => throw new Interp_Basic.Func_Subst.Func_Env.Mutation.IException("Invalid input")
           case ConsV(head, tail) => BoolV(false)
           case _ => throw new IException("Invalid input")
         }

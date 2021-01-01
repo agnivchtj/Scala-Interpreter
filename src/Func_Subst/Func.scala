@@ -1,5 +1,8 @@
 package Func_Subst
 
+import Library._
+import Untyped._
+
 case class PException(s: String) extends ParseException()
 case class DException(s: String) extends DesugarException()
 case class IException(s: String) extends InterpException()
@@ -380,7 +383,7 @@ object Interp {
       case IsNilC(e) => {
         interp(e) match {
           case NilV() => BoolV(true)
-          //case NumV(num) => throw new Func_Subst.IException("Invalid input")
+          //case NumV(num) => throw new Func_Subst.Func_Env.Mutation.IException("Invalid input")
           case ConsV(head, tail) => BoolV(false)
           case _ => throw new IException("Invalid input")
         }
