@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8089b978-8b08-4739-bc48-b8914d33198b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Func_Env/Exercise.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Func_Env/Func_Env.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mutation/Exercise.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mutation/Mutation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TypeChecker/Exercise.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TypeChecker/TypeChecker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/FuncTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Func_EnvTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/InterpBasicTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MutationTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ParserTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TypeCheckerTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Func_Subst/Func.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Func_Subst/Func.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interp_Basic/InterpBasic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interp_Basic/InterpBasic.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Intro/Parser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -74,6 +72,14 @@
         <option value="$PROJECT_DIR$/src/TypeChecker/Exercise.scala" />
         <option value="$PROJECT_DIR$/src/TypeChecker/TypeChecker.scala" />
         <option value="$PROJECT_DIR$/src/Mutation/Mutation.scala" />
+        <option value="$PROJECT_DIR$/src/ParserTest.scala" />
+        <option value="$PROJECT_DIR$/src/InterpBasicTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/InterpBasicTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/ParserTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/FuncTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/Func_EnvTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/MutationTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/TypeCheckerTest.scala" />
       </list>
     </option>
   </component>
@@ -147,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609520764332</updated>
-      <workItem from="1609520768076" duration="2669000" />
+      <workItem from="1609520768076" duration="3543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2669000" />
+    <option name="totallyTimeSpent" value="3543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -369,10 +375,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/InterpBasicTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#28#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ParserTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TypeCheckerTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#27#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MutationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#27#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Func_EnvTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#28#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/FuncTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#27#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Intro/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
